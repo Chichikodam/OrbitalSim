@@ -25,7 +25,7 @@ class Vector():
         return math.sqrt((self.x**2)+(self.y**2)+(self.z**2))
 
     def getNormalised(self): #returns normalised vector
-        speed = self.getSpeed()
+        speed = self.getSpeed();
         return Vector(self.x/speed, self.y/speed, self.z/speed)
 
 
